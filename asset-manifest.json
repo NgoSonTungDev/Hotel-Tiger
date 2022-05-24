@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Hotel-Tiger/static/css/main.1a15c872.css",
+    "main.js": "/Hotel-Tiger/static/js/main.1f7ba53b.js",
+    "static/js/787.1ff039a0.chunk.js": "/Hotel-Tiger/static/js/787.1ff039a0.chunk.js",
+    "static/media/image.png": "/Hotel-Tiger/static/media/image.00fe8f1b8223f926fdfe.png",
+    "index.html": "/Hotel-Tiger/index.html",
+    "main.1a15c872.css.map": "/Hotel-Tiger/static/css/main.1a15c872.css.map",
+    "main.1f7ba53b.js.map": "/Hotel-Tiger/static/js/main.1f7ba53b.js.map",
+    "787.1ff039a0.chunk.js.map": "/Hotel-Tiger/static/js/787.1ff039a0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a15c872.css",
+    "static/js/main.1f7ba53b.js"
+  ]
+}
