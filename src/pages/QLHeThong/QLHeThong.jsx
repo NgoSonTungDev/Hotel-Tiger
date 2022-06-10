@@ -3,14 +3,14 @@ import Navbar from "../../components/Navbar/Navbar";
 import Stack from "@mui/material/Stack";
 import Snackbar from "@mui/material/Snackbar";
 import MuiAlert from "@mui/material/Alert";
-import "./QlLuong.scss";
+import "./QLHeThong.scss";
 import { dataQLluong } from "./data";
 
 const Alert = React.forwardRef(function Alert(props, ref) {
   return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />;
 });
 
-const Qlluong = () => {
+const Qlhethong = () => {
   const [search, setSearch] = useState("");
   const [selectedItem, setSelectedItem] = useState({});
   const [data, setData] = useState(dataQLluong);
@@ -18,7 +18,7 @@ const Qlluong = () => {
   const [story, setStory] = useState("");
   const [mesage, setMesage] = useState("");
 
-  var box = document.querySelector(".qlluong-modal");
+  var box = document.querySelector(".qlhethong-modal");
   var update = document.querySelector(".btn-update");
 
   const clickbox = () => {
@@ -130,7 +130,7 @@ const Qlluong = () => {
           </div>
         </div>
 
-        <div className="qlluong-table">
+        <div className="qlhethong-table">
           <table>
             <tr>
               <th>Mã nhân viên</th>
@@ -149,7 +149,7 @@ const Qlluong = () => {
                 <td>{item.dayoff}</td>
                 <td>{item.day}</td>
                 <td>{item.price}</td>
-                <td className="function-table-qlluong">
+                <td className="function-table-qlhethong">
                   <button
                     onClick={() => {
                       setSelectedItem(item);
@@ -182,22 +182,22 @@ const Qlluong = () => {
           </table>
         </div>
 
-        <div className="qlluong-modal">
-          <div className="qlluong-modal-child">
-            <div className="qlluong-child-close" onClick={handleClose}>
+        <div className="qlhethong-modal">
+          <div className="qlhethong-modal-child">
+            <div className="qlhethong-child-close" onClick={handleClose}>
               <i class="fa-solid fa-xmark "></i>
             </div>
-            <div className="qlluong-content-title">
+            <div className="qlhethong-content-title">
               <h2>Thông tin nhân viên</h2>
             </div>
 
-            <div className="qlluong-content">
-              <div className="qlluong-content-img">
+            <div className="qlhethong-content">
+              <div className="qlhethong-content-img">
                 <img src={selectedItem.image} alt="" />
               </div>
 
-              <div className="qlluong-content-information">
-                <div className="qlluong-content-detail">
+              <div className="qlhethong-content-information">
+                <div className="qlhethong-content-detail">
                   <p>Mã nhân viên: {selectedItem.mnv}</p>
                   <p>Tên nhân viên: {selectedItem.name}</p>
                   <p>Số ngày: {selectedItem.daywork}</p>
@@ -234,4 +234,4 @@ const Qlluong = () => {
   );
 };
 
-export default Qlluong;
+export default Qlhethong;

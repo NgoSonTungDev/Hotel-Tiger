@@ -20,7 +20,7 @@ const Navbar = () => {
   const handlequanly = () => {
     var quanly = document.querySelector(".quanly");
     if (check2 === true) {
-      quanly.style.height = "360px";
+      quanly.style.height = "400px";
       quanly.style.transition = "0.2s linear";
       setCheck2(false);
     } else {
@@ -42,6 +42,18 @@ const Navbar = () => {
     navigation("/AccountManagement");
   };
 
+  const moveHotel_System_Management = () => {
+    navigation("/Hotel_System_Management");
+  };
+
+  const moveQLKH = () => {
+    navigation("/customer-management");
+  };
+
+  const moveQLTN = () => {
+    navigation("/convenient-management");
+  };
+
   return (
     <div>
       <div className="container_narbar">
@@ -60,23 +72,26 @@ const Navbar = () => {
                 Quản lý{" "}
                 <div className="quanly">
                   <ul>
-                    <li onClick ={moveQLNV}>Quản lý nhân viên</li>
-                    <li>Quản lý khách hàng</li>
+                    <li onClick={moveQLNV}>Quản lý nhân viên</li>
+                    <li onClick={moveQLKH}>Quản lý khách hàng</li>
                     <li>Quản lý phòng</li>
                     <li>Quản lý dịch vụ</li>
-                    <li>Quản lý tiện nghi</li>
-                    <li>Quản lý hệ thống</li>
+                    <li onClick={moveQLTN}>Quản lý tiện nghi</li>
+                    <li onClick={moveHotel_System_Management}>
+                      Quản lý hệ thống
+                    </li>
                     <li onClick={moveQLTK}>Quản lý tài khoản</li>
+                    <li
+                      onClick={() => {
+                        navigation("/salary-management");
+                      }}
+                    >
+                      Quản lý lương
+                    </li>
                   </ul>
                 </div>
               </li>
-              <li
-                onClick={() => {
-                  navigation("/salary-management");
-                }}
-              >
-                 Quản lý lương
-              </li>
+
               <li
                 onClick={() => {
                   navigation("/statistical");
