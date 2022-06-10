@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Hotel-Tiger/static/css/main.6c51d1ef.css",
-    "main.js": "/Hotel-Tiger/static/js/main.f7730455.js",
+    "main.css": "/Hotel-Tiger/static/css/main.e9f9582b.css",
+    "main.js": "/Hotel-Tiger/static/js/main.d5579496.js",
     "static/js/787.1ff039a0.chunk.js": "/Hotel-Tiger/static/js/787.1ff039a0.chunk.js",
     "static/media/image.png": "/Hotel-Tiger/static/media/image.00fe8f1b8223f926fdfe.png",
     "index.html": "/Hotel-Tiger/index.html",
-    "main.6c51d1ef.css.map": "/Hotel-Tiger/static/css/main.6c51d1ef.css.map",
-    "main.f7730455.js.map": "/Hotel-Tiger/static/js/main.f7730455.js.map",
+    "main.e9f9582b.css.map": "/Hotel-Tiger/static/css/main.e9f9582b.css.map",
+    "main.d5579496.js.map": "/Hotel-Tiger/static/js/main.d5579496.js.map",
     "787.1ff039a0.chunk.js.map": "/Hotel-Tiger/static/js/787.1ff039a0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c51d1ef.css",
-    "static/js/main.f7730455.js"
+    "static/css/main.e9f9582b.css",
+    "static/js/main.d5579496.js"
   ]
 }
